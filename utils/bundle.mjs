@@ -18,7 +18,7 @@ const esbuilds = [];
         const config = {
             entryPoints: ["src/dynamics-web-api.ts"],
             bundle: true,
-            target: ["es2020"],
+            target: ["es6"],
             platform: platform,
             packages: !isBrowser ? "external" : undefined,
             minify: minify,

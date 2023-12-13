@@ -9,7 +9,7 @@ await esbuild.build({
     logLevel: "info",
     outdir: `lib`,
     sourcemap: true,
-    target: ["es2020", "node15.0"],
+    target: ["es6", "node15.0"],
     platform: "node",
     packages: "external",
     format: "cjs",
